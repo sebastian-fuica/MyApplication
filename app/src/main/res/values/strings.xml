@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="titulo_pizzeria">🍕 Pizzería La Nonna</string>
+    <string name="elige_pizza">Elige tu pizza</string>
+    <string name="ingredientes_extra">Ingredientes extra</string>
+    <string name="extra_queso">Queso extra (+$1.000)</string>
+    <string name="extra_champinones">Champiñones (+$800)</string>
+    <string name="extra_tocino">Tocino (+$1.200)</string>
+    <string name="extra_aceitunas">Aceitunas (+$700)</string>
+    <string name="calcular_total">Calcular total</string>
+    <string name="limpiar_pedido">Limpiar pedido</string>
+    <string name="pedido_vacio">Tu pedido aparecerá aquí.</string>
+    <string name="extras_ninguno">Extras: ninguno</string>
+    <string name="formato_extra">• %1$s</string>
+    <string name="formato_pizza">Pizza: %1$s (%2$s)</string>
+    <string name="formato_extras">Extras:\n%1$s</string>
+    <string name="formato_total">TOTAL A PAGAR: %1$s</string>
+    <string name="formato_pizza_spinner">%1$s (%2$s)</string>
+</resources>

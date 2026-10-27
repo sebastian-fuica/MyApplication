@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF8FF"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingStart="24dp"
+        android:paddingTop="20dp"
+        android:paddingEnd="24dp"
+        android:paddingBottom="24dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingBottom="18dp"
+            android:text="🍕 Pizzería La Nonna"
+            android:textColor="#49434D"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="8dp"
+            android:text="Elige tu pizza"
+            android:textColor="#49434D"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <Spinner
+            android:id="@+id/spinnerPizza"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="4dp"
+            android:text="Ingredientes extra"
+            android:textColor="#49434D"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <CheckBox
+            android:id="@+id/checkQueso"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:text="Queso extra (+$1.000)"
+            android:textColor="#49434D"
+            android:buttonTint="#6B50A5" />
+
+        <CheckBox
+            android:id="@+id/checkChampinones"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:text="Champiñones (+$800)"
+            android:textColor="#49434D"
+            android:buttonTint="#6B50A5" />
+
+        <CheckBox
+            android:id="@+id/checkTocino"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:text="Tocino (+$1.200)"
+            android:textColor="#49434D"
+            android:buttonTint="#6B50A5" />
+
+        <CheckBox
+            android:id="@+id/checkAceitunas"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:text="Aceitunas (+$700)"
+            android:textColor="#49434D"
+            android:buttonTint="#6B50A5" />
+
+        <Button
+            android:id="@+id/buttonCalcular"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="22dp"
+            android:backgroundTint="#6B50A5"
+            android:text="Calcular total"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/buttonLimpiar"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="8dp"
+            android:backgroundTint="#6B50A5"
+            android:text="Limpiar pedido"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/textResultado"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="22dp"
+            android:text="Tu pedido aparecerá aquí."
+            android:textColor="#49434D"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+</ScrollView>
